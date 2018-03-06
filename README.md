@@ -13,7 +13,7 @@
 
 -------------------
 ## 指令
->- **git init **                                               # 初始化本地git仓库（创建新仓库）
+- **git init**                                               # 初始化本地git仓库（创建新仓库）
 - **git config --global user.name "xxx"**                       # 配置用户名
 - **git config --global user.email "xxx@xxx.com"**              # 配置邮件
 - **git config --global color.ui true**                         # git status等命令自动着色
@@ -26,11 +26,11 @@
 - **git status**                                                # 查看当前版本状态（是否修改）
 - **git add xyz**                                               # 添加xyz文件至index
 - **git add .**                                                 # 增加当前子目录下所有更改过的文件至index
-- **git commit -m 'xxx' **                                      # 提交
+- **git commit -m 'xxx'**                                      # 提交
 - **git commit --amend -m 'xxx'**                               # 合并上一次提交（用于反复修改）
 - **git commit -am 'xxx'**                                      # 将add和commit合为一步
 - **git rm xxx**                                                # 删除index中的文件
-- **git rm -r ***                                               # 递归删除
+- **git rm -r**                                               # 递归删除
 - **git log**                                                   # 显示提交日志
 - **git log -n**                                                # 显示1行日志 -n为n行
 - **git log --stat **                                           # 显示提交日志及相关变动文件
@@ -75,7 +75,7 @@
 - **git mv README README2**                                     # 重命名文件README为README2
 - **git reset --hard HEAD**                                    # 将当前版本重置为HEAD（通常用于merge失败回退）
 - **git rebase**                                                     # 您也可以使用rebase命令將分支合併到master分支
-- **git branch -d hotfixes/BJVEP933 **                          # 删除分支hotfixes/BJVEP933（本分支修改已合并到其他分支）
+- **git branch -d hotfixes/BJVEP933**                          # 删除分支hotfixes/BJVEP933（本分支修改已合并到其他分支）
 - **git branch -D hotfixes/BJVEP933**                           # 强制删除分支hotfixes/BJVEP933
 - **git ls-files**                                              # 列出git index包含的文件
 - **git show-branch**                                           # 图示当前分支历史
@@ -86,7 +86,7 @@
 - **git rev-parse v2.0**                                        # 内部命令：显示某个ref对于的SHA1 HASH
 - **git reflog**                                                # 显示所有提交，包括孤立节点
 - **git show HEAD@{5}
-- **git show master@{yesterday} **                              # 显示master分支昨天的状态
+- **git show master@{yesterday}**                              # 显示master分支昨天的状态
 - **git log --pretty=format:'%h %s' --graph**                   # 图示提交日志
 - **git show HEAD** # 此版本修改的資料
 - **git show HEAD^** # 前一版修改的資料
