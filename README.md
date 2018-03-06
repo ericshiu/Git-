@@ -1,12 +1,15 @@
 <img src="https://raw.githubusercontent.com/ericshiu/GitCommand/master/Octocat.png" width="200" height="150" />
+
 # 欢迎觀看Git指令，以及基礎使用
+
 -------------------
 ## 基礎使用
->- **git init**    初始化
->- **git add .**    把此資料夾內所有文件放置變動區
->- **git commit -m "first commit"**    提交 "msg"
->- **git remote add origin https://github.com/xxxxx/xxxxx.git**  "綁定這個倉庫的遠端位置"
->- **git push -u origin master**  "提交遠端倉庫"
+
+- **git init**    初始化
+- **git add .**    把此資料夾內所有文件放置變動區
+- **git commit -m "first commit"**    提交 "msg"
+- **git remote add origin https://github.com/xxxxx/xxxxx.git**  "綁定這個倉庫的遠端位置"
+- **git push -u origin master**  "提交遠端倉庫"
 
 -------------------
 ## 指令
