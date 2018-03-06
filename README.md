@@ -85,7 +85,7 @@
 - **git ls-tree HEAD**                                          # 内部命令：显示某个git对象
 - **git rev-parse v2.0**                                        # 内部命令：显示某个ref对于的SHA1 HASH
 - **git reflog**                                                # 显示所有提交，包括孤立节点
-- **git show HEAD@{5}
+- **git show HEAD@{5}**
 - **git show master@{yesterday}**                              # 显示master分支昨天的状态
 - **git log --pretty=format:'%h %s' --graph**                   # 图示提交日志
 - **git show HEAD** # 此版本修改的資料
